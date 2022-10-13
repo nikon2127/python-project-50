@@ -4,13 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["nikon"]
 readme = "README.md"
-packages = [{include = "hexlet_code"}]
+packages = [{include = "gendiff"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 
 [tool.poetry.scripts]
-gendiff = "hexlet_code.scripts.gendiff:main"
+gendiff = "gendiff.scripts.gendiff:main"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^5.0.4"
